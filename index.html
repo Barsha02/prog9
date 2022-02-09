@@ -1,14 +1,16 @@
 <html>
-<head></head>
+<head>
+
+function hello()
+{
+	document.write("Hello Everyone")
+}
+
+</head>
 <body>
 <script>
-
-function sortalphabet(str)
-{
-	var x = str.split("");
-	return x.sort().join("");
-}
-document.write(sortalphabet("ebfdca"));
+	<button onclick = hello()> Click Me</button>
+	<p onmouseenter = "hello()">Click on me</p>
 
 </script>
 </body>
